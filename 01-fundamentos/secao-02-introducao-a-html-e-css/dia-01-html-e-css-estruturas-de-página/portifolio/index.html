@@ -6,11 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meu Portifólio</title>
+  <link rel="icon" href="favicon.png">
   <style>
-    /* Fontes diferente para o nome e descrição. */
+    /* Fonte diferente para o nome e descrição. */
     .nome,
     .sobre {
-      font-family: Arial, Helvetica, sans-serif;
+      font-family:monospace, sans-serif;
     }
 
     /* Cor de background. */
@@ -44,6 +45,11 @@
     /* Utilizando style aprendido durante aula aovivo. */  
     #foto {
       border-radius: 35%;
+    /* Hover que aprendi na mentoria do Luquinha. */  
+    }
+    #foto:hover {
+  transform: rotateY(720deg);
+  transition: all 2s ease;
     }
     </style>
 </head>
@@ -60,18 +66,20 @@
   <!--Uma foto atual sua, acompanhada de um texto -->
   <img src="ft1.jpeg" width="180px" alt="Selfie recente" id="foto">
   <!--Uma breve descrição sobre você, cidade/estado -->
-  <p class="sobre">Olá, sou <strong><em>Lucas Toscan</em></strong>, estudante de engenharia da computação e
-    desenvolvimento web ful stack na escola de programação Trybe. Este é meu portifólio inicial.<br>
-    Trabalhei 8 anos no setor elétrico na area de SmartGrid.<br><strong>Agradeço sua visita.</strong></p>
+  <p class="sobre">Olá, sou <strong><em>Lucas Toscan</em></strong>, 
+    estudante de engenharia da computação e
+    desenvolvimento web ful stack na escola de programação Trybe.<br>
+    Este é meu portifólio inicial.<br>
+    <strong>Agradeço sua visita.</strong></p>
   <p class="local"><strong>Nova Prata - RS</strong></p>
   <!--Uma lista de habilidades -->
   <hr>
   <h2>Habilidades</h2>
   <ul>
-    <li class="hab1">Engenharia Elétrica</li>
-    <li class="hab2">Hardware</li>
-    <li class="hab3">Software</li>
-    <li class="hab4">Metodologias ágeis</li>
+    <li class="hab1">Hardware</li>
+    <li class="hab2">Software</li>
+    <li class="hab3"></li>
+    <li class="hab4"></li>
   </ul>
   <hr>
   <!--Um link interno para a sua foto-->
