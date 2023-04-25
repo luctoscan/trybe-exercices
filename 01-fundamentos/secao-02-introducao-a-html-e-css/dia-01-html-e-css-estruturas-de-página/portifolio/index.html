@@ -7,13 +7,31 @@
   <title>Meu Portifólio</title>
   <style>
     /* Defina fontes diferentes para o seu nome e para a descrição que você criou. */
-
+    .nome, .sobre {
+      font-family: Arial, Helvetica, sans-serif;
+    }
     /* Defina uma cor base de background do seu Portfólio Web. */
-
+    body {
+      background-color: #F7FFF7;
+    }
     /* Altere o estilo das tags que você usou para destacar algumas informações, como sua nacionalidade e a cidade/estado onde mora. */
-
-    /* Altere o tamanho dos elementos da lista de habilidades que você criou. Lembre-se de utilizar classes em cada um dos elementos. */ 
-       
+    .local, em {
+      color: #FF6B6B;
+      font-size: 20px;
+    }
+    /* Altere o tamanho dos elementos da lista de habilidades que você criou. */ 
+    .hab1 {
+      font-size: 18px;
+    }
+    .hab2 {
+      font-size: 16px;
+    } 
+    .hab3 {
+      font-size: 18px;
+    } 
+    .hab4 {
+      font-size: 16px;
+    } 
   </style>
 </head>
 <body>
@@ -30,15 +48,15 @@
     <!--Uma breve descrição sobre você, cidade/estado -->
   <p class="sobre">Olá, sou <strong><em>Lucas Toscan</em></strong>, estudante de engenharia da computação e desenvolvimento web ful stack na escola de programação Trybe. Este é meu portifólio inicial.<br>
     Trabalhei 8 anos no setor elétrico na area de SmartGrid.<br><strong>Agradeço sua visita.</strong></p>
-  <p class="resido"><strong>Nova Prata - RS</strong></p>
+  <p class="local"><strong>Nova Prata - RS</strong></p>
     <!--Uma lista de habilidades -->
     <hr>
   <h2>Habilidades</h2>
     <ul>
-        <li>Engenharia Elétrica</li>
-        <li>Hardware</li>
-        <li>Software</li>
-        <li>Metodologias ágeis</li>
+        <li class="hab1">Engenharia Elétrica</li>
+        <li class="hab2">Hardware</li>
+        <li class="hab3">Software</li>
+        <li class="hab4">Metodologias ágeis</li>
     </ul>
     <hr>
     <!--Um link interno para a sua foto-->
