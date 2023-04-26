@@ -3,7 +3,8 @@
     position: absolute;
     z-index: 1;
   }
-  
+
+  /*Posicione o Mário acima do Goomba.*/
   .goomba {
     width: 100px;
     position: absolute;
@@ -12,6 +13,7 @@
     z-index: 2;
   }
   
+  /*Posicione o balão para que se torne uma fala de Bowser.*/
   .baloon {
     position: absolute;
     top: 240px;
@@ -20,6 +22,7 @@
   
   }
   
+  /*Posicione o texto da tag p para que fique dentro do balão de fala.*/
   .speach {
     font-size: 25px;
     position: absolute;
@@ -28,6 +31,7 @@
     z-index: 5;
   }
   
+  /*Posicione o Bowser à direita do Goomba.*/
   .bowser {
     width: 200px;
     position: absolute;
